@@ -316,7 +316,7 @@ const PictureGrid = () => (
           <img src={strangle} alt="strangle" style={style.divs} />
           <p>
             How to escape from an attacker&apos;s grip on you. No extra strength
-            or athleticism needed. See how it&apos;s done.
+            or athleticism needed! See how it&apos;s done.
           </p>
         </div>
       </div>
