@@ -308,7 +308,7 @@ const PictureGrid = () => (
           <p>
             Many women have been kidnapped, locked in the car trunk and then
             assaulted or murdered. How did a 94 year old woman escape out of a
-            locked trunk? It&apos;s easy when you know know. See how it&apos;s
+            locked trunk? It&apos;s easy when you know how. See how it&apos;s
             done.
           </p>
         </div>
