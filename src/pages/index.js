@@ -384,6 +384,7 @@ const SCButton1 = () => (
     data-item-id="1"
     data-item-name="WPSDI Instructional Videos"
     data-item-price="5"
+    data-item-file-guid="63010648-72a7-449b-8f93-45eff9a13d11"
     data-item-url="https://test-wpsdi.netlify.com/"
     data-item-description="A set of instructional videos on self-defense for women"
   >
