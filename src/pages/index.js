@@ -13,6 +13,7 @@ import trunk from './trunk.jpg';
 import spray from './spray.jpg';
 import ut from './utensils.jpg';
 import chair from './chair.jpg';
+import logos from './cards.png';
 
 const style = {
   normal: {
@@ -365,14 +366,36 @@ const FinalPitch = () => (
     </Box>
     <Flex justify="center" wrap={['wrap', 'wrap', 'nowrap']}>
       <div style={{ margin: 'auto' }}>
-        <p style={style.test}>To download the instructional video: </p>
+        <p style={style.test}>
+          To download the instructional video for
+          <span style={style.bold}> ONLY $5</span>:
+        </p>
         <SCButton1 />
       </div>
       <div style={{ margin: 'auto' }}>
-        <p style={style.test}>To purchase our special Pepper Spray: </p>
+        <p style={style.test}>
+          To purchase our special Pepper Spray for
+          <span style={style.bold}> ONLY $9.75 (Free delivery!)</span>:
+        </p>
         <SCButton2 />
       </div>
     </Flex>
+    <p style={style.center}>
+      <em>
+        Purchases can be made with Visa, MasterCard, Discovery, American
+        Express.
+      </em>
+    </p>
+    <img
+      src={logos}
+      alt="logo"
+      style={{
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        width: '40%'
+      }}
+    />
     <br />
   </Box>
 );
@@ -398,7 +421,7 @@ const SCButton2 = () => (
     className="snipcart-add-item"
     data-item-id="2"
     data-item-name="Pepper Spray"
-    data-item-price="4.50"
+    data-item-price="9.75"
     data-item-url="https://test-wpsdi.netlify.com/"
     data-item-description="A unique Pepper Spray to defend yourself"
   >
