@@ -373,7 +373,7 @@ const FinalPitch = () => (
       <div style={{ margin: 'auto' }}>
         <p style={style.test}>
           To download our instructional demonstration video for
-          <span style={style.bold}> ONLY $4.75</span>:
+          <span style={style.bold}> ONLY $4.50</span>:
         </p>
         <SCButton1 />
       </div>
