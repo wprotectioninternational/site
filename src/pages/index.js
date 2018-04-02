@@ -356,7 +356,7 @@ const FinalPitch = () => (
         <h3 style={style.normal}>
           PEPPER SPRAY is a good self-defense weapon. We are associated with a
           pepper spray especially designed for women. Made to look like a
-          lipstick or ladies spray it is light, small, and very effective! It
+          lipstick or ladies spray it is light, small, and very effective. It
           has a larger spray area to help you hit your target. In our
           demonstration video, we show you how to use it for maximum efficiency!
           Every woman should have atleast one.
@@ -411,7 +411,7 @@ const SCButton1 = () => (
     className="snipcart-add-item"
     data-item-id="1"
     data-item-name="WPSDI Instructional Videos"
-    data-item-price="5"
+    data-item-price="4.50"
     data-item-file-guid="63010648-72a7-449b-8f93-45eff9a13d11"
     data-item-url="https://test-wpsdi.netlify.com/"
     data-item-description="A set of instructional videos on self-defense for women"
