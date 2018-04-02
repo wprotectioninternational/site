@@ -350,11 +350,16 @@ const FinalPitch = () => (
           photographs.
         </strong>
       </h5>
+      <br />
+      <br />
       <div>
         <h3 style={style.normal}>
-          PEPPER SPRAY is a good self-defense weapon.We are associated with a
-          pepper spray especially designed for women. Every woman should have
-          atleast one. We show you the most effective way to use it!
+          PEPPER SPRAY is a good self-defense weapon. We are associated with a
+          pepper spray especially designed for women. Made to look like a
+          lipstick or ladies spray it is light, small, and very effective! It
+          has a larger spray area to help you hit your target. In our
+          demonstration video, we show you how to use it for maximum efficiency!
+          Every woman should have atleast one.
         </h3>
         <img src={spray} alt="spray" style={style.divs2} />
       </div>
@@ -367,8 +372,8 @@ const FinalPitch = () => (
     <Flex justify="center" wrap={['wrap', 'wrap', 'nowrap']}>
       <div style={{ margin: 'auto' }}>
         <p style={style.test}>
-          To download the instructional video for
-          <span style={style.bold}> ONLY $5</span>:
+          To download our instructional demonstration video for
+          <span style={style.bold}> ONLY $4.75</span>:
         </p>
         <SCButton1 />
       </div>
