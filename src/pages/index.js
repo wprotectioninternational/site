@@ -413,7 +413,7 @@ const SCButton1 = () => (
     data-item-name="WPSDI Instructional Videos"
     data-item-price="4.50"
     data-item-file-guid="63010648-72a7-449b-8f93-45eff9a13d11"
-    data-item-url="https://test-wpsdi.netlify.com/"
+    data-item-url="http://www.womensprotectionandselfdefense.com/"
     data-item-description="A set of instructional videos on self-defense for women"
   >
     <ButtonPrimary>Click Here</ButtonPrimary>
@@ -427,7 +427,7 @@ const SCButton2 = () => (
     data-item-id="2"
     data-item-name="Pepper Spray"
     data-item-price="9.75"
-    data-item-url="https://test-wpsdi.netlify.com/"
+    data-item-url="http://www.womensprotectionandselfdefense.com/"
     data-item-description="A unique Pepper Spray to defend yourself"
   >
     <ButtonPrimary>Click Here</ButtonPrimary>
