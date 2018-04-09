@@ -14,7 +14,6 @@ import spray from './spray.jpg';
 import ut from './utensils.jpg';
 import chair from './chair.jpg';
 import logos from './cards.png';
-import pp from './paypal.png';
 
 const style = {
   normal: {
@@ -367,8 +366,6 @@ const FinalPitch = () => (
       <br />
       <br />
       <h1 style={style.bold}>DON&apos;T BE A VICTIM, BE A SURVIVOR!</h1>
-      <p style={style.normal}>EMAIL: wprotectioninternational@gmail.com</p>
-      <br />
     </Box>
     <Flex justify="center" wrap={['wrap', 'wrap', 'nowrap']}>
       <div style={{ margin: 'auto' }}>
@@ -402,19 +399,11 @@ const FinalPitch = () => (
           width: '40%'
         }}
       />
-      <span>
-        <img
-          src={pp}
-          alt="logo"
-          style={{
-            marginLeft: 'auto',
-            marginRight: 'auto',
-            marginBottom: '20',
-            height: '5em'
-          }}
-        />
-      </span>
     </div>
+    <br />
+    <p style={style.center}>EMAIL: wprotectioninternational@gmail.com</p>
+    <br />
+    <br />
     <br />
   </Box>
 );
