@@ -208,7 +208,7 @@ const ReevaSection = () => (
         style={{
           maxWidth: '100%',
           height: 'auto',
-          margin: '1em',
+          margin: '0em',
           boxShadow:
             '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'
         }}
@@ -220,24 +220,32 @@ const ReevaSection = () => (
 const MainInfo = () => (
   <Box bg={colors.primary}>
     <Box color={colors.secondary} m="0 1em 0 1em" align="center">
-      <h1 style={style.bold}> Let us help you now! </h1>
-      <p style={style.normal}>Every 23 seconds another woman is attacked.</p>
-      <h2 style={style.normal}>
+      <h1 style={{ margin: '0', padding: '0', fontWeight: 'bold' }}>
+        Let us help you now!
+      </h1>
+      <p style={{ margin: '0', padding: '0', fontWeight: 'normal' }}>
+        Every 23 seconds another woman is attacked.
+      </p>
+      <br />
+      <h2 style={{ margin: '0', padding: '0', fontWeight: '0' }}>
         Knowledge is Power! We give you the knowledge to have the power.
       </h2>
-      <ul>
+      <ul style={{ margin: '0', padding: '0' }}>
         <li>NO strength required.</li>
         <li>NO atheleticism required.</li>
         <li>NO fitness required.</li>
         <li>NO gym work outs required.</li>
         <li>NO Judo, Karate, or any other martial arts required.</li>
       </ul>
-      <p style={style.bold}>
+      <br />
+      <br />
+      <h2 style={{ margin: '0', padding: '0', fontWeight: 'bolder' }}>
         All it takes is a one time, 45 minutes, instructional demonstration:
-      </p>
+      </h2>
       <ol
         style={{
-          textAlign: 'justify'
+          textAlign: 'justify',
+          margin: '0'
         }}
       >
         <li>We explain to you what your attacker&apos;s state of mind is.</li>
@@ -336,9 +344,10 @@ const FinalPitch = () => (
         know. We help you spot some of the signs.
       </p>
       <p>
-        WPSDI is the first and only international program that is specifically
-        and practically designed to help all women of all ages in any situation.
-        Our aim is to reverse the statistics of crimes against women.
+        <span style={{ fontWeight: 'bolder', fontSize: '20' }}>WPSDI</span> is
+        the first and only international program that is specifically and
+        practically designed to help all women of all ages in any situation. Our
+        aim is to reverse the statistics of crimes against women.
       </p>
       <h5>
         <strong>
@@ -370,14 +379,14 @@ const FinalPitch = () => (
     <Flex justify="center" wrap={['wrap', 'wrap', 'nowrap']}>
       <div style={{ margin: 'auto' }}>
         <p style={style.test}>
-          To download our instructional demonstration video for
+          Download our instructional demonstration video for
           <span style={style.bold}> ONLY $5.00</span>:
         </p>
         <SCButton1 />
       </div>
       <div style={{ margin: 'auto' }}>
         <p style={style.test}>
-          To purchase our special Pepper Spray for
+          Purchase our special Pepper Spray for
           <span style={style.bold}> ONLY $7.75 (Free delivery!)</span>:
         </p>
         <SCButton2 />
