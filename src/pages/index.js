@@ -380,7 +380,7 @@ const FinalPitch = () => (
       <div style={{ margin: 'auto' }}>
         <p style={style.test}>
           Download our instructional demonstration video for
-          <span style={style.bold}> ONLY $5.00</span>:
+          <span style={style.bold}> ONLY $10.00</span>:
         </p>
         <SCButton1 />
       </div>
@@ -423,7 +423,7 @@ const SCButton1 = () => (
     className="snipcart-add-item"
     data-item-id="1"
     data-item-name="WPSDI Instructional Videos"
-    data-item-price="5.00"
+    data-item-price="10.00"
     data-item-file-guid="63010648-72a7-449b-8f93-45eff9a13d11"
     data-item-url="/"
     data-item-description="A set of instructional videos on self-defense for women"
