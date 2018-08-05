@@ -283,6 +283,7 @@ const MainInfo = () => (
           Poisons and drugs are being used more and more to murder and
           manipulate women. We help you see the signs, and a great deal more!
         </li>
+        <li>How to free yourself when your hands are tied with duct tape.</li>
       </ol>
     </Box>
   </Box>
@@ -359,12 +360,11 @@ const FinalPitch = () => (
           photographs.
         </strong>
       </h5>
-      <br />
-      <br />
+      <h3>ALL IT TAKES IS TO DOWNLOAD OUR 45 MINUTE INSTRUCTIONAL VIDEO.</h3>
       <div>
         <h3 style={style.normal}>
           <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
-            PEPPER SPRAY
+            PEPPER SPRAY{' '}
           </span>
           is a good self-defense weapon. Made to look like a lipstick or ladies
           spray, it is light, small, and very effective. In our demonstration
