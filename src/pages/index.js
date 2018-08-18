@@ -360,7 +360,7 @@ const FinalPitch = () => (
           photographs.
         </strong>
       </h5>
-      <h3>ALL IT TAKES IS TO DOWNLOAD OUR 45 MINUTE INSTRUCTIONAL VIDEO.</h3>
+      <h3>JUST DOWNLOAD OUR 45 MINUTE INSTRUCTIONAL VIDEO.</h3>
       <div>
         <h3 style={style.normal}>
           <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
