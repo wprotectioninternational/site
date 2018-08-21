@@ -240,7 +240,8 @@ const MainInfo = () => (
       <br />
       <br />
       <h2 style={{ margin: '0', padding: '0', fontWeight: 'bolder' }}>
-        All it takes is a one time, 45 minutes, instructional demonstration:
+        Just download our instructional demonstrational video to your
+        mobile or laptop from the comfort of your home.
       </h2>
       <ol
         style={{
@@ -360,7 +361,7 @@ const FinalPitch = () => (
           photographs.
         </strong>
       </h5>
-      <h3>JUST DOWNLOAD OUR 45 MINUTE INSTRUCTIONAL VIDEO.</h3>
+      <h3>WE HELP SAVE LIVES!!</h3>
       <div>
         <h3 style={style.normal}>
           <span style={{ fontSize: '20px', fontWeight: 'bold' }}>
