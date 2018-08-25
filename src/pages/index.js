@@ -399,6 +399,10 @@ const FinalPitch = () => (
         Purchases can be made with Visa, MasterCard, Discovery, American
         Express, or PayPal.
       </em>
+      <em>
+        You can find the link to the instructional video in the invoice
+        email.
+      </em>
     </p>
     <div style={{ display: 'block', textAlign: 'center' }}>
       <img
